@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+    <!ELEMENT factura (cliente, fecha, productos)>
+    <!ELEMENT cliente (nombre, direccion, telefono)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT productos (producto+)>
+    <!ELEMENT producto (nombre_art, cantidad, precio)>
+    <!ELEMENT nombre_art (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+]>
+<factura>
+    <cliente>
+        <nombre>Julian Chavez</nombre>
+        <direccion>Av sevilla 123</direccion>
+        <telefono>600738165</telefono>
+    </cliente>
+    <fecha>2026-07-01</fecha>
+    <productos>
+        <producto>
+            <nombre_art>Monitor Gamer 300Hz</nombre_art>
+            <cantidad>1</cantidad>
+            <precio>150€</precio>
+        </producto>
+        <producto>
+            <nombre_art>Dron FPV DJI AVATA 2</nombre_art>
+            <cantidad>1</cantidad>
+            <precio>1500€</precio>
+        </producto>
+    </productos>
+</factura>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleados SYSTEM "empleados.dtd" [
+]>
+<empleados>
+    <empleado>
+        <nombre> Nerea Ros </nombre>
+        <id>004</id>
+        <cargo>Desarrolladora BackEnd;</cargo>
+        <salario>2200</salario>
+    </empleado>
+</empleados>

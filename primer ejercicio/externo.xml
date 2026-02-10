@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleados SYSTEM "externo.dtd">
+<empleados>
+    <empleado>
+        <nombre>Dani Chaves</nombre>
+        <id>003</id>
+        <cargo>Desarrollador</cargo>
+        <salario>2500</salario>
+    </empleado>
+</empleados>
