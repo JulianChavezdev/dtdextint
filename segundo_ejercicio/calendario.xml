@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE calendario [
+    <!ELEMENT calendario (evento+)>
+    <!ELEMENT evento (titulo, fecha, descripcion?, ubicacion)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT ubicacion (#PCDATA)>
+]>
+<calendario>
+    <evento>
+        <titulo>Feria de canton | China </titulo>
+        <fecha>2027-05-01</fecha>
+        <descripcion>La feria de importación y exportación más grande del mundo </descripcion>
+        <ubicacion>Guanzhou, China</ubicacion>
+    </evento>
+    <evento>
+        <titulo>CES </titulo>
+        <fecha>2027-15-01</fecha>
+	<descripcion> CES es el mayor evento tecnologico del mundo enfocado en innovaciones de punta </descripcion>
+        <ubicacion>Las Vegas Nevada, EE.UU </ubicacion>
+    </evento>
+</calendario>
